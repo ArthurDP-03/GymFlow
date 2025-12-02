@@ -4,5 +4,4 @@ public enum StatusEquipamento {
     DISPONIVEL,
     OCUPADO,
     MANUTENCAO;
-
 }
