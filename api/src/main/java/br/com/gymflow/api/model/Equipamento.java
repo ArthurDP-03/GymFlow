@@ -22,6 +22,10 @@ public abstract class  Equipamento implements Monitoravel {
         this.status = StatusEquipamento.DISPONIVEL;
         this.ultimaAtualizacao = LocalDateTime.now();
     }
-    
+
+    public void atualizarStatus(StatusEquipamento novoStatus){
+        this.status = novoStatus;
+        this.ultimaAtualizacao = LocalDateTime.now();
+    }
 }
 
